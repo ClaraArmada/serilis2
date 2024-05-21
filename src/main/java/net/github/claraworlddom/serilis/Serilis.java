@@ -13,7 +13,7 @@ import net.neoforged.fml.common.Mod;
 @Mod(Serilis.MODID)
 public class Serilis
 {
-    public static final String MODID = "serilis";
+    public static final String MODID = "assets/serilis";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public Serilis(IEventBus bus, ModContainer container) {
