@@ -1,3 +1,17 @@
 {
-  "items.serilis.sharp_bone": "Sharp Bone"
+  "item.serilis.sharp_bone": "Sharp Bone",
+  "block.serilis.rock": "Rock",
+
+  "block.minecraft.copper_ore": "Native Copper Ore",
+  "block.minecraft.deepslate_copper_ore": "Deepslate Native Copper Ore",
+  "item.minecraft.raw_copper": "Raw Native Copper",
+  "block.minecraft.raw_copper_block": "Block of Raw Native Copper",
+  "block.minecraft.gold_ore": "Native Gold Ore",
+  "block.minecraft.deepslate_gold_ore": "Deepslate Native Gold Ore",
+  "item.minecraft.raw_gold": "Raw Native Gold",
+  "block.minecraft.raw_gold_block": "Block of Raw Native Gold",
+  "block.minecraft.iron_ore": "Native Iron Ore",
+  "block.minecraft.deepslate_iron_ore": "Deepslate Native Iron Ore",
+  "item.minecraft.raw_iron": "Raw Native Iron",
+  "block.minecraft.raw_iron_block": "Block of Raw Native Iron"
 }

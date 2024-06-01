@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "facing=north": [
+      {
+        "model": "serilis:block/large_rock", "weight": 5
+      },
+      {
+        "model": "serilis:block/rock", "weight": 10
+      },
+      {
+        "model": "serilis:block/small_rock", "weight": 15
+      }
+    ],
+    "facing=east": [
+      {
+        "model": "serilis:block/large_rock", "y": 90, "weight": 5
+      },
+      {
+        "model": "serilis:block/rock", "y": 90, "weight": 10
+      },
+      {
+        "model": "serilis:block/small_rock", "y": 90, "weight": 15
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "serilis:block/large_rock", "y": 180, "weight": 5
+      },
+      {
+        "model": "serilis:block/rock", "y": 180, "weight": 10
+      },
+      {
+        "model": "serilis:block/small_rock", "y": 180, "weight": 15
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "serilis:block/large_rock", "y": 270, "weight": 5
+      },
+      {
+        "model": "serilis:block/rock", "y": 270, "weight": 10
+      },
+      {
+        "model": "serilis:block/small_rock", "y": 270, "weight": 15
+      }
+    ]
+  }
+}
