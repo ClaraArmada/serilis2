@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "serilis:warped_board"
+    }
+  },
+  "result": {
+    "item": "minecraft:warped_planks"
+  }
+}

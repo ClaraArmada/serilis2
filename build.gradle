@@ -6,7 +6,7 @@ plugins {
     id 'net.neoforged.gradle.userdev' version '7.0.136'
 }
 
-version = '1.20.6-0.4.0'
+version = '1.20.6-0.4.0-preview'
 group = 'net.claraworlddom.serilis'
 
 repositories {

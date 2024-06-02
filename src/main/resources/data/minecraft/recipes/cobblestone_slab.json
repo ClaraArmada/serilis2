@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "serilis:rock"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "minecraft:cobblestone_slab"
+  }
+}

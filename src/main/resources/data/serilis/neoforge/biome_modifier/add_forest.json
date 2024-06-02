@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#serilis:has_a_lot_of_trees",
+  "features": "serilis:twig_placed",
+  "step": "vegetal_decoration"
+}

@@ -1,6 +1,21 @@
 {
   "item.serilis.sharp_bone": "Sharp Bone",
+
+  "item.serilis.boards.oak": "Oak Board",
+  "item.serilis.boards.spruce": "Spruce Board",
+  "item.serilis.boards.birch": "Birch Board",
+  "item.serilis.boards.jungle": "Jungle Board",
+  "item.serilis.boards.acacia": "Acacia Board",
+  "item.serilis.boards.dark_oak": "Dark Oak Board",
+  "item.serilis.boards.mangrove": "Mangrove Board",
+  "item.serilis.boards.cherry": "Cherry Board",
+  "item.serilis.boards.crimson": "Crimson Board",
+  "item.serilis.boards.warped": "Warped Board",
+
   "block.serilis.rock": "Rock",
+  "block.serilis.twig": "Twig",
+
+  "sounds.serilis.rocks_hitting": "Rocks Hitting",
 
   "block.minecraft.copper_ore": "Native Copper Ore",
   "block.minecraft.deepslate_copper_ore": "Deepslate Native Copper Ore",

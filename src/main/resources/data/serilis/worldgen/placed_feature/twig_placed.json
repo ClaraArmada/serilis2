@@ -1,5 +1,5 @@
 {
-  "feature": "serilis:rock_placed",
+  "feature": "serilis:twig_placed",
   "placement": [
     {
       "type": "minecraft:count",
