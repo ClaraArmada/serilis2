@@ -6,10 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "serilis:crimson_board"
+      "item": "serilis:boards/crimson"
     }
   },
   "result": {
-    "item": "minecraft:crimson_planks"
+    "id": "minecraft:crimson_planks",
+    "count": 1
   }
 }

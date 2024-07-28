@@ -9,6 +9,12 @@
       },
       {
         "model": "serilis:block/small_rock", "weight": 15
+      },
+      {
+        "model": "serilis:block/small_rock_3", "weight": 10
+      },
+      {
+        "model": "serilis:block/rock_pile", "weight": 2
       }
     ],
     "facing=east": [
@@ -20,6 +26,12 @@
       },
       {
         "model": "serilis:block/small_rock", "y": 90, "weight": 15
+      },
+      {
+        "model": "serilis:block/small_rock_3", "y": 90, "weight": 10
+      },
+      {
+        "model": "serilis:block/rock_pile", "y": 90, "weight": 2
       }
     ],
     "facing=south": [
@@ -31,6 +43,12 @@
       },
       {
         "model": "serilis:block/small_rock", "y": 180, "weight": 15
+      },
+      {
+        "model": "serilis:block/small_rock_3", "y": 180, "weight": 10
+      },
+      {
+        "model": "serilis:block/rock_pile", "y": 180, "weight": 2
       }
     ],
     "facing=west": [
@@ -42,6 +60,12 @@
       },
       {
         "model": "serilis:block/small_rock", "y": 270, "weight": 15
+      },
+      {
+        "model": "serilis:block/small_rock_3", "y": 270, "weight": 10
+      },
+      {
+        "model": "serilis:block/rock_pile", "y": 270, "weight": 2
       }
     ]
   }

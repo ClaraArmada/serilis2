@@ -6,10 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "serilis:oak_board"
+      "item": "serilis:boards/oak"
     }
   },
   "result": {
-    "item": "minecraft:oak_planks"
+    "id": "minecraft:oak_planks",
+    "count": 1
   }
 }

@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north": [
+      {
+        "model": "serilis:block/driftwood1", "weight": 1
+      },
+      {
+        "model": "serilis:block/driftwood2", "weight": 2
+      }
+    ],
+    "facing=east": [
+      {
+        "model": "serilis:block/driftwood1", "y": 90, "weight": 1
+      },
+      {
+        "model": "serilis:block/driftwood2", "y": 90, "weight": 2
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "serilis:block/driftwood1", "y": 180, "weight": 1
+      },
+      {
+        "model": "serilis:block/driftwood2", "y": 180, "weight": 2
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "serilis:block/driftwood1", "y": 270, "weight": 1
+      },
+      {
+        "model": "serilis:block/driftwood2", "y": 270, "weight": 2
+      }
+    ]
+  }
+}

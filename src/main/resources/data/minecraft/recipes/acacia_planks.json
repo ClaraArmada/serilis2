@@ -6,10 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "serilis:acacia_board"
+      "item": "serilis:boards/acacia"
     }
   },
   "result": {
-    "item": "minecraft:acacia_planks"
+    "id": "minecraft:acacia_planks",
+    "count": 1
   }
 }

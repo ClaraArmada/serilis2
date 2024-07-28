@@ -39,6 +39,7 @@ public class Serilis
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(SerilisItems.ROCK.get());
             event.accept(SerilisItems.TWIG.get());
+            event.accept(SerilisItems.DRIFTWOOD.get());
             event.accept(SerilisItems.OAK_BOARD.get());
             event.accept(SerilisItems.SPRUCE_BOARD.get());
             event.accept(SerilisItems.BIRCH_BOARD.get());
@@ -53,6 +54,10 @@ public class Serilis
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(SerilisItems.SHARP_BONE.get());
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(SerilisItems.SWITCHGRASS.get());
         }
     }
 

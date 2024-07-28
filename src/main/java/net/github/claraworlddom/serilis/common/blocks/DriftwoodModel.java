@@ -17,18 +17,18 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class RockModel extends Block {
+public class DriftwoodModel extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
     private static final VoxelShape SHAPE = makeShape();
 
     public static VoxelShape makeShape(){
         VoxelShape shape = Shapes.empty();
-        shape = Shapes.join(shape, Shapes.box(0.25, 0, 0.1875, 0.8125, 0.1875, 0.8125), BooleanOp.OR);
+        shape = Shapes.join(shape, Shapes.box(0.25, 0, 0.25, 0.75, 0.25, 0.75), BooleanOp.OR);
 
         return shape;
     }
 
-    public RockModel(Properties properties) {
+    public DriftwoodModel(Properties properties) {
         super(properties);
     }
 

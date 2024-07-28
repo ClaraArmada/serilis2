@@ -6,10 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "serilis:jungle_board"
+      "item": "serilis:boards/jungle"
     }
   },
   "result": {
-    "item": "minecraft:jungle_planks"
+    "id": "minecraft:jungle_planks",
+    "count": 1
   }
 }

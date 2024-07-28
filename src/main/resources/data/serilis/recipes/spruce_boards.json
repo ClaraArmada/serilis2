@@ -3,11 +3,12 @@
   "group": "plank",
   "ingredients": [
     {
-      "tag": "minecraft:spruce_logs"
+      "count": 9,
+      "item": "serilis:boards/spruce"
     }
   ],
   "result": {
-    "count": 3,
-    "item": "serilis:spruce_board"
+    "count": 1,
+    "id": "minecraft:spruce_planks"
   }
 }

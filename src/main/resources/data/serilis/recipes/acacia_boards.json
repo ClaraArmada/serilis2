@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "plank",
+  "group": "misc",
   "ingredients": [
     {
-      "tag": "minecraft:acacia_logs"
+      "count": 9,
+      "item": "serilis:boards/acacia"
     }
   ],
   "result": {
-    "count": 3,
-    "item": "serilis:acacia_board"
+    "count": 1,
+    "id": "minecraft:acacia_planks"
   }
 }

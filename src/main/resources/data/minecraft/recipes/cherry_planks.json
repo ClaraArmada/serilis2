@@ -6,10 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "serilis:cherry_board"
+      "item": "serilis:boards/cherry"
     }
   },
   "result": {
-    "item": "minecraft:cherry_planks"
+    "id": "minecraft:cherry_planks",
+    "count": 1
   }
 }

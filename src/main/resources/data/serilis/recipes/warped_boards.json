@@ -3,11 +3,12 @@
   "group": "plank",
   "ingredients": [
     {
-      "tag": "minecraft:warped_logs"
+      "count": 9,
+      "item": "serilis:boards/warped"
     }
   ],
   "result": {
-    "count": 3,
-    "item": "serilis:warped_board"
+    "count": 1,
+    "id": "minecraft:warped_planks"
   }
 }

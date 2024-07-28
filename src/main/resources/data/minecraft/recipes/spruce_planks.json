@@ -6,10 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "serilis:spruce_board"
+      "item": "serilis:boards/spruce"
     }
   },
   "result": {
-    "item": "minecraft:spruce_planks"
+    "id": "minecraft:spruce_planks",
+    "count": 1
   }
 }
