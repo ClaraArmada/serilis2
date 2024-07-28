@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "misc",
+  "ingredients": [
+    {
+      "count": 9,
+      "item": "serilis:boards/mangrove"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:mangrove_planks"
+  }
+}

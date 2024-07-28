@@ -1,0 +1,34 @@
+{
+  "item.serilis.sharp_bone": "Sharp Bone",
+
+  "item.serilis.boards.oak": "Oak Board",
+  "item.serilis.boards.spruce": "Spruce Board",
+  "item.serilis.boards.birch": "Birch Board",
+  "item.serilis.boards.jungle": "Jungle Board",
+  "item.serilis.boards.acacia": "Acacia Board",
+  "item.serilis.boards.dark_oak": "Dark Oak Board",
+  "item.serilis.boards.mangrove": "Mangrove Board",
+  "item.serilis.boards.cherry": "Cherry Board",
+  "item.serilis.boards.crimson": "Crimson Board",
+  "item.serilis.boards.warped": "Warped Board",
+
+  "block.serilis.rock": "Rock",
+  "block.serilis.twig": "Twig",
+  "block.serilis.driftwood": "Driftwood",
+  "block.serilis.switchgrass": "Switchgrass",
+
+  "sounds.serilis.rocks_hitting": "Rocks Hitting",
+
+  "block.minecraft.copper_ore": "Native Copper Ore",
+  "block.minecraft.deepslate_copper_ore": "Deepslate Native Copper Ore",
+  "item.minecraft.raw_copper": "Raw Native Copper",
+  "block.minecraft.raw_copper_block": "Block of Raw Native Copper",
+  "block.minecraft.gold_ore": "Native Gold Ore",
+  "block.minecraft.deepslate_gold_ore": "Deepslate Native Gold Ore",
+  "item.minecraft.raw_gold": "Raw Native Gold",
+  "block.minecraft.raw_gold_block": "Block of Raw Native Gold",
+  "block.minecraft.iron_ore": "Native Iron Ore",
+  "block.minecraft.deepslate_iron_ore": "Deepslate Native Iron Ore",
+  "item.minecraft.raw_iron": "Raw Native Iron",
+  "block.minecraft.raw_iron_block": "Block of Raw Native Iron"
+}

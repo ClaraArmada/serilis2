@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "serilis:boards/jungle"
+    }
+  },
+  "result": {
+    "id": "minecraft:jungle_planks",
+    "count": 1
+  }
+}

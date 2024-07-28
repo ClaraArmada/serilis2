@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "serilis:block/twig" },
+    "facing=east": { "model": "serilis:block/twig", "y": 90 },
+    "facing=south": { "model": "serilis:block/twig", "y": 180 },
+    "facing=west": { "model": "serilis:block/twig", "y": 270 }
+  }
+}

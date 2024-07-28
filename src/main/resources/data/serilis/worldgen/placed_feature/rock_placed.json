@@ -1,0 +1,54 @@
+{
+  "feature": "serilis:rock_placed",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 3
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": ["minecraft:air"]
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:ice",
+                "minecraft:blue_ice",
+                "minecraft:packed_ice",
+                "minecraft:packed_ice",
+                "minecraft:powder_snow",
+                "minecraft:sand",
+                "minecraft:red_sand",
+                "minecraft:end_stone",
+                "minecraft:water",
+                "minecraft:dirt_path"
+              ],
+              "offset": [0, -1, 0]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

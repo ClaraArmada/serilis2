@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "plank",
+  "ingredients": [
+    {
+      "count": 9,
+      "item": "serilis:boards/oak"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:oak_planks"
+  }
+}
