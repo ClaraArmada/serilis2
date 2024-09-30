@@ -14,7 +14,7 @@ public class ModSounds {
 
     public static final DeferredHolder<SoundEvent, SoundEvent> ROCKS_HITTING = SOUND_EVENTS.register(
             "rocks_hitting",
-            () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(Serilis.MODID, "rocks_hitting"))
+            () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(Serilis.MODID, "rocks_hitting"))
     );
 
     public static void register(IEventBus eventBus) {
