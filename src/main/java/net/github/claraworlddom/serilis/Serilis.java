@@ -56,8 +56,8 @@ public class Serilis
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(SerilisItems.SHARP_BONE.get());
-            event.accept((ItemLike)SerilisItems.FLINT_FLAKE.get());
-            event.accept((ItemLike)SerilisItems.FLINT_CORE.get());
+            event.accept(SerilisItems.FLINT_FLAKE.get());
+            event.accept(SerilisItems.FLINT_CORE.get());
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
