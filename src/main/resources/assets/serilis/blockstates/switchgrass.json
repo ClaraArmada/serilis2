@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
-      "model": "serilis:block/switchgrass"
+    "half=lower": {
+      "model": "minecraft:block/switchgrass_bottom"
+    },
+    "half=upper": {
+      "model": "minecraft:block/switchgrass_top"
     }
   }
 }
