@@ -4,12 +4,14 @@ import net.github.claraworlddom.serilis.Serilis;
 import net.github.claraworlddom.serilis.common.ModSounds;
 import net.github.claraworlddom.serilis.common.items.SerilisItems;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.ItemLike;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
@@ -76,6 +78,10 @@ public final class ItemEventHandler {
 
         boolean mainHandBoneOffHandRock = mainHandItem == Items.BONE && offHandItem == SerilisItems.ROCK.get();
         boolean offHandBoneMainHandRock = offHandItem == Items.BONE && mainHandItem == SerilisItems.ROCK.get();
+        boolean mainHandFlintRockOffHandRock = mainHandItem == SerilisItems.FLINT_ROCK.get() && offHandItem == SerilisItems.ROCK.get();
+        boolean offHandFlintRockMainHandRock = offHandItem == SerilisItems.FLINT_ROCK.get() && mainHandItem == SerilisItems.ROCK.get();
+        boolean mainHandFlintOffHandRock = mainHandItem == Items.FLINT && offHandItem == SerilisItems.ROCK.get();
+        boolean offHandFlintMainHandRock = offHandItem == Items.FLINT && mainHandItem == SerilisItems.ROCK.get();
 
         // SHARPEN BONE
 
@@ -96,6 +102,43 @@ public final class ItemEventHandler {
 
             // Play the sound effect
             event.getLevel().playSound(null, player.blockPosition(), ModSounds.ROCKS_HITTING.get(), SoundSource.PLAYERS, 1.0f, 1.0f);
+        }
+
+        //FLINT KNAPPING
+
+        if (mainHandFlintRockOffHandRock || offHandFlintRockMainHandRock) {
+            player.getInventory().add(new ItemStack((ItemLike)SerilisItems.FLINT_FLAKE.get(), 1));
+            player.getInventory().add(new ItemStack(Items.FLINT));
+            if (mainHandFlintRockOffHandRock) {
+                mainHandStack.shrink(1);
+                if (mainHandStack.isEmpty()) {
+                    player.setItemInHand(InteractionHand.MAIN_HAND, ItemStack.EMPTY);
+                }
+            } else {
+                offHandStack.shrink(1);
+                if (offHandStack.isEmpty()) {
+                    player.setItemInHand(InteractionHand.OFF_HAND, ItemStack.EMPTY);
+                }
+            }
+
+            event.getLevel().playSound(null, player.blockPosition(), (SoundEvent)ModSounds.ROCKS_HITTING.get(), SoundSource.PLAYERS, 1.0F, 1.0F);
+        }
+        if (mainHandFlintOffHandRock || offHandFlintMainHandRock) {
+            player.getInventory().add(new ItemStack(SerilisItems.FLINT_FLAKE.get(), 2));
+            player.getInventory().add(new ItemStack(SerilisItems.FLINT_CORE.get()));
+            if (mainHandFlintOffHandRock) {
+                mainHandStack.shrink(1);
+                if (mainHandStack.isEmpty()) {
+                    player.setItemInHand(InteractionHand.MAIN_HAND, ItemStack.EMPTY);
+                }
+            } else {
+                offHandStack.shrink(1);
+                if (offHandStack.isEmpty()) {
+                    player.setItemInHand(InteractionHand.OFF_HAND, ItemStack.EMPTY);
+                }
+            }
+
+            event.getLevel().playSound(null, player.blockPosition(), (SoundEvent)ModSounds.ROCKS_HITTING.get(), SoundSource.PLAYERS, 1.0F, 1.0F);
         }
     }
 }

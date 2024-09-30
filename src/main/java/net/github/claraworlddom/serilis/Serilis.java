@@ -5,6 +5,7 @@ import net.github.claraworlddom.serilis.common.blocks.SerilisBlocks;
 import net.github.claraworlddom.serilis.common.items.SerilisItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.ItemLike;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -38,6 +39,7 @@ public class Serilis
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(SerilisItems.ROCK.get());
+            event.accept(SerilisItems.FLINT_ROCK.get());
             event.accept(SerilisItems.TWIG.get());
             event.accept(SerilisItems.DRIFTWOOD.get());
             event.accept(SerilisItems.OAK_BOARD.get());
@@ -54,6 +56,8 @@ public class Serilis
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(SerilisItems.SHARP_BONE.get());
+            event.accept((ItemLike)SerilisItems.FLINT_FLAKE.get());
+            event.accept((ItemLike)SerilisItems.FLINT_CORE.get());
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

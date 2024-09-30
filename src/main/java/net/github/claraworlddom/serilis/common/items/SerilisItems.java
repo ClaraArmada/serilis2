@@ -12,6 +12,10 @@ public class SerilisItems {
 
     public static final Supplier<Item> SHARP_BONE = ITEMS.register("sharp_bone", () ->
             new SwordItem(ItemTiers.BONE, new Item.Properties().stacksTo(1)));
+    public static final Supplier<Item> FLINT_FLAKE = ITEMS.register("flint_flake", () ->
+            new SwordItem(Tiers.STONE, (new Item.Properties()).stacksTo(1)));
+    public static final Supplier<Item> FLINT_CORE = ITEMS.register("flint_core", () ->
+            new SwordItem(Tiers.STONE, (new Item.Properties()).stacksTo(1)));
 
     public static final Supplier<Item> OAK_BOARD = ITEMS.register("boards/oak", () ->
             new Item(new Item.Properties()));
@@ -35,6 +39,7 @@ public class SerilisItems {
             new Item(new Item.Properties()));
 
 
+    public static final Supplier<BlockItem> FLINT_ROCK = ITEMS.registerSimpleBlockItem("flint_rock", SerilisBlocks.ROCK);
     public static final Supplier<BlockItem> ROCK = ITEMS.registerSimpleBlockItem("rock", SerilisBlocks.ROCK);
     public static final Supplier<BlockItem> TWIG = ITEMS.registerSimpleBlockItem("twig", SerilisBlocks.TWIG);
     public static final Supplier<BlockItem> DRIFTWOOD = ITEMS.registerSimpleBlockItem("driftwood", SerilisBlocks.DRIFTWOOD);

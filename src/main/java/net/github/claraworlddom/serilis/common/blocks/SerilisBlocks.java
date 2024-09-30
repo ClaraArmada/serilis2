@@ -18,6 +18,9 @@ public class SerilisBlocks {
     public static final Supplier<Block> ROCK = BLOCKS.register("rock",
             () -> new RockModel(BlockBehaviour.Properties.of().sound(SoundType.STONE).dynamicShape().noOcclusion()));
 
+    public static final Supplier<Block> FLINT_ROCK = BLOCKS.register("flint_rock",
+            () -> new RockModel(BlockBehaviour.Properties.of().sound(SoundType.STONE).dynamicShape().noOcclusion()));
+
     public static final Supplier<Block> TWIG = BLOCKS.register("twig",
             () -> new TwigModel(BlockBehaviour.Properties.of().sound(SoundType.WOOD).dynamicShape().noOcclusion()));
 
