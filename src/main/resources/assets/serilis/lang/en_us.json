@@ -1,7 +1,7 @@
 {
   "item.serilis.sharp_bone": "Sharp Bone",
   "item.serilis.flint_core": "Flint Core",
-  "item.serilis.flint_core": "FLINT CORE",
+  "item.serilis.flint_flake": "Flint Flake",
 
   "item.serilis.boards.oak": "Oak Board",
   "item.serilis.boards.spruce": "Spruce Board",
@@ -15,7 +15,7 @@
   "item.serilis.boards.warped": "Warped Board",
 
   "block.serilis.rock": "Rock",
-  "block.serilis.flint_ock": "Flint Rock",
+  "item.serilis.flint_ock": "Flint Rock",
   "block.serilis.twig": "Twig",
   "block.serilis.driftwood": "Driftwood",
   "block.serilis.switchgrass": "Switchgrass",
