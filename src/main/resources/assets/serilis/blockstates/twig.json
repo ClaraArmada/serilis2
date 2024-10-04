@@ -1,8 +1,60 @@
 {
   "variants": {
-    "facing=north": { "model": "serilis:block/twig" },
-    "facing=east": { "model": "serilis:block/twig", "y": 90 },
-    "facing=south": { "model": "serilis:block/twig", "y": 180 },
-    "facing=west": { "model": "serilis:block/twig", "y": 270 }
+    "facing=north": [
+      {
+        "model": "serilis:block/twig", "weight": 10
+      },
+      {
+        "model": "serilis:block/twig2", "weight": 10
+      },
+      {
+        "model": "serilis:block/twig3", "weight": 10
+      },
+      {
+        "model": "serilis:block/twig4", "weight": 2
+      }
+    ],
+    "facing=east": [
+      {
+        "model": "serilis:block/twig", "weight": 10, "y": 90
+      },
+      {
+        "model": "serilis:block/twig2", "weight": 10, "y": 90
+      },
+      {
+        "model": "serilis:block/twig3", "weight": 10, "y": 90
+      },
+      {
+        "model": "serilis:block/twig4", "weight": 2, "y": 90
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "serilis:block/twig", "weight": 10, "y": 180
+      },
+      {
+        "model": "serilis:block/twig2", "weight": 10, "y": 180
+      },
+      {
+        "model": "serilis:block/twig3", "weight": 10, "y": 180
+      },
+      {
+        "model": "serilis:block/twig4", "weight": 2, "y": 180
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "serilis:block/twig", "weight": 10, "y": 270
+      },
+      {
+        "model": "serilis:block/twig2", "weight": 10, "y": 270
+      },
+      {
+        "model": "serilis:block/twig3", "weight": 10, "y": 270
+      },
+      {
+        "model": "serilis:block/twig4", "weight": 2, "y": 270
+      }
+    ]
   }
 }
