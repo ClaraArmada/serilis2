@@ -39,6 +39,7 @@ public class Serilis
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(SerilisItems.ROCK.get());
+            event.accept(SerilisItems.BOULDER.get());
             event.accept(SerilisItems.FLINT_ROCK.get());
             event.accept(SerilisItems.TWIG.get());
             event.accept(SerilisItems.DRIFTWOOD.get());
