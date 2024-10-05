@@ -12,8 +12,16 @@ import java.util.function.Supplier;
 public class SerilisBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Serilis.MODID);
 
+    public static final Supplier<Block> PEBBLE = BLOCKS.register("pebble",
+            () -> new FlatModel(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).dynamicShape().noOcclusion())
+    );
+
     public static final Supplier<Block> ROCK = BLOCKS.register("rock",
             () -> new RockModel(BlockBehaviour.Properties.of().sound(SoundType.STONE).dynamicShape().noOcclusion())
+    );
+
+    public static final Supplier<Block> BOULDER = BLOCKS.register("boulder",
+            () -> new BoulderModel(BlockBehaviour.Properties.of().sound(SoundType.STONE).dynamicShape().noOcclusion().strength(2.0F, 6.0F))
     );
 
     public static final Supplier<Block> FLINT_ROCK = BLOCKS.register("flint_rock",
@@ -28,11 +36,10 @@ public class SerilisBlocks {
             () -> new DriftwoodModel(BlockBehaviour.Properties.of().sound(SoundType.WOOD).dynamicShape().noOcclusion())
     );
 
-    public static final Supplier<Block> BOULDER = BLOCKS.register("boulder",
-            () -> new BoulderModel(BlockBehaviour.Properties.of().sound(SoundType.STONE).dynamicShape().noOcclusion())
-    );
 
     public static final Supplier<Block> SWITCHGRASS = BLOCKS.register("switchgrass",
             () -> new DoublePlantBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).replaceable().noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XYZ).ignitedByLava().pushReaction(PushReaction.DESTROY))
     );
+
+
 }

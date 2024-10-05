@@ -41,7 +41,8 @@ public class SerilisItems {
 
     public static final Supplier<BlockItem> FLINT_ROCK = ITEMS.registerSimpleBlockItem("flint_rock", SerilisBlocks.FLINT_ROCK);
     public static final Supplier<BlockItem> ROCK = ITEMS.registerSimpleBlockItem("rock", SerilisBlocks.ROCK);
-    public static final Supplier<BlockItem> BOULDER = ITEMS.registerSimpleBlockItem("rock", SerilisBlocks.BOULDER);
+    public static final Supplier<BlockItem> BOULDER = ITEMS.registerSimpleBlockItem("boulder", SerilisBlocks.BOULDER);
+    public static final Supplier<BlockItem> PEBBLE = ITEMS.registerSimpleBlockItem("pebble", SerilisBlocks.PEBBLE);
     public static final Supplier<BlockItem> TWIG = ITEMS.registerSimpleBlockItem("twig", SerilisBlocks.TWIG);
     public static final Supplier<BlockItem> DRIFTWOOD = ITEMS.registerSimpleBlockItem("driftwood", SerilisBlocks.DRIFTWOOD);
     public static final Supplier<BlockItem> SWITCHGRASS = ITEMS.registerSimpleBlockItem("switchgrass", SerilisBlocks.SWITCHGRASS);

@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "facing=north": [
+      {
+        "model": "serilis:block/pebble1"
+      },
+      {
+        "model": "serilis:block/pebble2"
+      },
+      {
+        "model": "serilis:block/pebble3"
+      }
+    ],
+    "facing=east": [
+      {
+        "model": "serilis:block/pebble1", "y": 90
+      },
+      {
+        "model": "serilis:block/pebble2", "y": 90
+      },
+      {
+        "model": "serilis:block/pebble3", "y": 90
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "serilis:block/pebble1", "y": 180
+      },
+      {
+        "model": "serilis:block/pebble2", "y": 180
+      },
+      {
+        "model": "serilis:block/pebble3", "y": 180
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "serilis:block/pebble1", "y": 270
+      },
+      {
+        "model": "serilis:block/pebble2", "y": 270
+      },
+      {
+        "model": "serilis:block/pebble3", "y": 270
+      }
+    ]
+  }
+}

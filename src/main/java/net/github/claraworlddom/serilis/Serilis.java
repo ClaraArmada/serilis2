@@ -38,6 +38,7 @@ public class Serilis
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(SerilisItems.PEBBLE.get());
             event.accept(SerilisItems.ROCK.get());
             event.accept(SerilisItems.BOULDER.get());
             event.accept(SerilisItems.FLINT_ROCK.get());

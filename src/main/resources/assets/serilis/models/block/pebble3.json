@@ -1,0 +1,6 @@
+{
+	"parent": "serilis:block/templates/flat",
+	"textures": {
+		"texture": "serilis:block/pebble3"
+	}
+}
