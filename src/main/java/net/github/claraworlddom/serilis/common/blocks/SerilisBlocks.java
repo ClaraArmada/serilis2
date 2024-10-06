@@ -13,27 +13,33 @@ public class SerilisBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Serilis.MODID);
 
     public static final Supplier<Block> PEBBLE = BLOCKS.register("pebble",
-            () -> new FlatModel(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).dynamicShape().noOcclusion())
+            () -> new FlatModel(BlockBehaviour.Properties.of().
+                    sound(SoundType.GRAVEL).noOcclusion())
     );
 
     public static final Supplier<Block> ROCK = BLOCKS.register("rock",
-            () -> new RockModel(BlockBehaviour.Properties.of().sound(SoundType.STONE).dynamicShape().noOcclusion())
+            () -> new RockModel(BlockBehaviour.Properties.of().
+                    sound(SoundType.STONE).noOcclusion())
     );
 
     public static final Supplier<Block> BOULDER = BLOCKS.register("boulder",
-            () -> new BoulderModel(BlockBehaviour.Properties.of().sound(SoundType.STONE).dynamicShape().noOcclusion().strength(2.0F, 6.0F))
+            () -> new BoulderModel(BlockBehaviour.Properties.of().
+                    sound(SoundType.STONE).noOcclusion().strength(1.5F, 6.0F).requiresCorrectToolForDrops().mapColor(MapColor.STONE))
     );
 
     public static final Supplier<Block> FLINT_ROCK = BLOCKS.register("flint_rock",
-            () -> new RockModel(BlockBehaviour.Properties.of().sound(SoundType.STONE).dynamicShape().noOcclusion())
+            () -> new RockModel(BlockBehaviour.Properties.of().
+                    sound(SoundType.STONE).noOcclusion())
     );
 
     public static final Supplier<Block> TWIG = BLOCKS.register("twig",
-            () -> new TwigModel(BlockBehaviour.Properties.of().sound(SoundType.WOOD).dynamicShape().noOcclusion())
+            () -> new TwigModel(BlockBehaviour.Properties.of().
+                    sound(SoundType.WOOD).dynamicShape().noOcclusion())
     );
 
     public static final Supplier<Block> DRIFTWOOD = BLOCKS.register("driftwood",
-            () -> new DriftwoodModel(BlockBehaviour.Properties.of().sound(SoundType.WOOD).dynamicShape().noOcclusion())
+            () -> new DriftwoodModel(BlockBehaviour.Properties.of().
+                    sound(SoundType.WOOD).noOcclusion())
     );
 
 
