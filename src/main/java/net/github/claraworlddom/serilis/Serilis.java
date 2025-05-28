@@ -3,6 +3,7 @@ package net.github.claraworlddom.serilis;
 import net.github.claraworlddom.serilis.common.ModSounds;
 import net.github.claraworlddom.serilis.common.blocks.SerilisBlocks;
 import net.github.claraworlddom.serilis.common.items.SerilisItems;
+import net.github.claraworlddom.serilis.common.world.SLWorldGen;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.ItemLike;
@@ -31,6 +32,8 @@ public class Serilis
         SerilisItems.ITEMS.register(bus);
 
         bus.addListener(this::addCreative);
+
+        SLWorldGen.CHUNK_GENERATOR.register(bus);
 
         ModSounds.register(bus);
     }

@@ -35,5 +35,7 @@
   "block.minecraft.iron_ore": "Native Iron Ore",
   "block.minecraft.deepslate_iron_ore": "Deepslate Native Iron Ore",
   "item.minecraft.raw_iron": "Raw Native Iron",
-  "block.minecraft.raw_iron_block": "Block of Raw Native Iron"
+  "block.minecraft.raw_iron_block": "Block of Raw Native Iron",
+
+  "generator.serilis.terran": "[SL] Terran"
 }

@@ -14,12 +14,12 @@ public class SerilisBlocks {
 
     public static final Supplier<Block> PEBBLE = BLOCKS.register("pebble",
             () -> new FlatModel(BlockBehaviour.Properties.of().
-                    sound(SoundType.GRAVEL).noOcclusion())
+                    sound(SoundType.GRAVEL).noOcclusion().dynamicShape())
     );
 
     public static final Supplier<Block> ROCK = BLOCKS.register("rock",
             () -> new RockModel(BlockBehaviour.Properties.of().
-                    sound(SoundType.STONE).noOcclusion())
+                    sound(SoundType.STONE).noOcclusion().forceSolidOn())
     );
 
     public static final Supplier<Block> BOULDER = BLOCKS.register("boulder",
@@ -29,7 +29,7 @@ public class SerilisBlocks {
 
     public static final Supplier<Block> FLINT_ROCK = BLOCKS.register("flint_rock",
             () -> new RockModel(BlockBehaviour.Properties.of().
-                    sound(SoundType.STONE).noOcclusion())
+                    sound(SoundType.STONE).noOcclusion().forceSolidOn())
     );
 
     public static final Supplier<Block> TWIG = BLOCKS.register("twig",
