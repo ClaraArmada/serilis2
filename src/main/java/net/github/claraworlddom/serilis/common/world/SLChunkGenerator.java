@@ -23,18 +23,17 @@ import java.util.concurrent.CompletableFuture;
 
 // please finish please
 public class SLChunkGenerator extends ChunkGenerator {
-    private final Holder<NoiseGeneratorSettings> settings;
 
     public static final MapCodec<SLChunkGenerator> CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
             BiomeSource.CODEC.fieldOf("biome_source").forGetter((c) -> c.biomeSource), // may need to change later
-            NoiseGeneratorSettings.CODEC.fieldOf("sl_settings").forGetter((c) -> c.noiseSettings)
+            NoiseGeneratorSettings.CODEC.fieldOf("settings").forGetter(c -> c.noiseSettings)
     ).apply(instance, instance.stable(SLChunkGenerator::new)));
 
     private Holder<NoiseGeneratorSettings> noiseSettings;
 
-    public SLChunkGenerator(BiomeSource biomeSource, Holder<NoiseGeneratorSettings> settings) {
+    public SLChunkGenerator(BiomeSource biomeSource, Holder<NoiseGeneratorSettings> noiseSettings) {
         super(biomeSource);
-        this.settings = settings;
+        this.noiseSettings = noiseSettings;
     }
 
     @Override

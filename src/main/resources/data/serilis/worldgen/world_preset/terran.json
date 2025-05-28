@@ -8,7 +8,7 @@
           "type": "minecraft:multi_noise",
           "preset": "minecraft:overworld"
         },
-        "settings": "serilis:sl_settings"
+        "settings": "minecraft:overworld"
       }
     },
     "minecraft:the_end": {
