@@ -3,6 +3,7 @@ package net.github.claraworlddom.serilis.common.blocks;
 import net.github.claraworlddom.serilis.Serilis;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -12,22 +13,26 @@ import java.util.function.Supplier;
 public class SerilisBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Serilis.MODID);
 
+    public static final Supplier<Block> LIMESTONE = BLOCKS.register("limestone",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1F, 6.0F))
+    );
+
     public static final Supplier<Block> PEBBLE = BLOCKS.register("pebble",
             () -> new FlatModel(BlockBehaviour.Properties.of().
                     sound(SoundType.GRAVEL).noOcclusion().dynamicShape())
     );
 
-    public static final Supplier<Block> ROCK = BLOCKS.register("rock",
+    public static final Supplier<Block> LIMESTONE_ROCK = BLOCKS.register("limestone_rock",
             () -> new RockModel(BlockBehaviour.Properties.of().
                     sound(SoundType.STONE).noOcclusion().forceSolidOn())
     );
 
-    public static final Supplier<Block> BOULDER = BLOCKS.register("boulder",
+    public static final Supplier<Block> LIMESTONE_BOULDER = BLOCKS.register("limestone_boulder",
             () -> new BoulderModel(BlockBehaviour.Properties.of().
                     sound(SoundType.STONE).noOcclusion().strength(1.5F, 6.0F).requiresCorrectToolForDrops().mapColor(MapColor.STONE))
     );
 
-    public static final Supplier<Block> FLINT_ROCK = BLOCKS.register("flint_rock",
+    public static final Supplier<Block> LIMESTONE_FLINT_ROCK = BLOCKS.register("limestone_flint_rock",
             () -> new RockModel(BlockBehaviour.Properties.of().
                     sound(SoundType.STONE).noOcclusion().forceSolidOn())
     );

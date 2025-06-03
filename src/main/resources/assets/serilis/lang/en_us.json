@@ -14,10 +14,12 @@
   "item.serilis.boards.crimson": "Crimson Board",
   "item.serilis.boards.warped": "Warped Board",
 
-  "block.serilis.rock": "Rock",
-  "block.serilis.boulder": "Boulder",
+  "block.serilis.limestone": "Limestone",
+  "block.serilis.limestone_rock": "Limestone Rock",
+  "block.serilis.limestone_boulder": "Limestone Boulder",
+  "block.serilis.limestone_flint_rock": "Limestone Flint Rock",
+
   "block.serilis.pebble": "Pebble",
-  "block.serilis.flint_rock": "Flint Rock",
   "block.serilis.twig": "Twig",
   "block.serilis.driftwood": "Driftwood",
   "block.serilis.switchgrass": "Switchgrass",

@@ -76,12 +76,12 @@ public final class ItemEventHandler {
         Item mainHandItem = mainHandStack.getItem();
         Item offHandItem = offHandStack.getItem();
 
-        boolean mainHandBoneOffHandRock = mainHandItem == Items.BONE && offHandItem == SerilisItems.ROCK.get();
-        boolean offHandBoneMainHandRock = offHandItem == Items.BONE && mainHandItem == SerilisItems.ROCK.get();
-        boolean mainHandFlintRockOffHandRock = mainHandItem == SerilisItems.FLINT_ROCK.get() && offHandItem == SerilisItems.ROCK.get();
-        boolean offHandFlintRockMainHandRock = offHandItem == SerilisItems.FLINT_ROCK.get() && mainHandItem == SerilisItems.ROCK.get();
-        boolean mainHandFlintOffHandRock = mainHandItem == Items.FLINT && offHandItem == SerilisItems.ROCK.get();
-        boolean offHandFlintMainHandRock = offHandItem == Items.FLINT && mainHandItem == SerilisItems.ROCK.get();
+        boolean mainHandBoneOffHandRock = mainHandItem == Items.BONE && offHandItem == SerilisItems.LIMESTONE_ROCK.get();
+        boolean offHandBoneMainHandRock = offHandItem == Items.BONE && mainHandItem == SerilisItems.LIMESTONE_ROCK.get();
+        boolean mainHandFlintRockOffHandRock = mainHandItem == SerilisItems.LIMESTONE_FLINT_ROCK.get() && offHandItem == SerilisItems.LIMESTONE_ROCK.get();
+        boolean offHandFlintRockMainHandRock = offHandItem == SerilisItems.LIMESTONE_FLINT_ROCK.get() && mainHandItem == SerilisItems.LIMESTONE_ROCK.get();
+        boolean mainHandFlintOffHandRock = mainHandItem == Items.FLINT && offHandItem == SerilisItems.LIMESTONE_ROCK.get();
+        boolean offHandFlintMainHandRock = offHandItem == Items.FLINT && mainHandItem == SerilisItems.LIMESTONE_ROCK.get();
 
         // SHARPEN BONE
 

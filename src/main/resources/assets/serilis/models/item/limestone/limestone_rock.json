@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "serilis:item/rock/flint_rock"
+    "layer0": "serilis:item/rock/limestone/limestone_rock"
   }
 }

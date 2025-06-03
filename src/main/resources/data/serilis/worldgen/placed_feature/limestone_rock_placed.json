@@ -1,5 +1,5 @@
 {
-  "feature": "serilis:rock_placed",
+  "feature": "serilis:limestone_rock_placed",
   "placement": [
     {
       "type": "minecraft:count",

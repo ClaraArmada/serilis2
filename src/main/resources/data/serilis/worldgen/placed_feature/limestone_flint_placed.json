@@ -1,5 +1,5 @@
 {
-  "feature": "serilis:flint_placed",
+  "feature": "serilis:limestone_flint_placed",
   "placement": [
     {
       "type": "minecraft:count",

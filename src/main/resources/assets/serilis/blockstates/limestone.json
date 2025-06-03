@@ -1,0 +1,95 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "serilis:block/limestone/limestone",
+        "weight": 1
+      },
+      {
+        "model": "serilis:block/limestone/limestone_mirrored",
+        "weight": 1
+      },
+      {
+        "model": "serilis:block/limestone/limestone2",
+        "weight": 2
+      },
+      {
+        "model": "serilis:block/limestone/limestone2_mirrored",
+        "weight": 2
+      },
+      {
+        "model": "serilis:block/limestone/limestone3",
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone3_mirrored",
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone4",
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone4_mirrored",
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone5",
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone5_mirrored",
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone",
+        "y": 180,
+        "weight": 1
+      },
+      {
+        "model": "serilis:block/limestone/limestone_mirrored",
+        "y": 180,
+        "weight": 1
+      },{
+        "model": "serilis:block/limestone/limestone2",
+        "y": 180,
+        "weight": 2
+      },
+      {
+        "model": "serilis:block/limestone/limestone2_mirrored",
+        "y": 180,
+        "weight": 2
+      },
+      {
+        "model": "serilis:block/limestone/limestone3",
+        "y": 180,
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone3_mirrored",
+        "y": 180,
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone4",
+        "y": 180,
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone4_mirrored",
+        "y": 180,
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone5",
+        "y": 180,
+        "weight": 8
+      },
+      {
+        "model": "serilis:block/limestone/limestone5_mirrored",
+        "y": 180,
+        "weight": 8
+      }
+    ]
+  }
+}

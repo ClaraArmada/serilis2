@@ -41,10 +41,10 @@ public class Serilis
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(SerilisItems.LIMESTONE_ROCK.get());
+            event.accept(SerilisItems.LIMESTONE_BOULDER.get());
             event.accept(SerilisItems.PEBBLE.get());
-            event.accept(SerilisItems.ROCK.get());
-            event.accept(SerilisItems.BOULDER.get());
-            event.accept(SerilisItems.FLINT_ROCK.get());
+            event.accept(SerilisItems.LIMESTONE_FLINT_ROCK.get());
             event.accept(SerilisItems.TWIG.get());
             event.accept(SerilisItems.DRIFTWOOD.get());
             event.accept(SerilisItems.OAK_BOARD.get());
@@ -68,16 +68,22 @@ public class Serilis
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(SerilisItems.SWITCHGRASS.get());
         }
-    }
 
-    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(SerilisItems.LIMESTONE_ROCK.get());
+            event.accept(SerilisItems.LIMESTONE_BOULDER.get());
+            event.accept(SerilisItems.LIMESTONE.get());
         }
     }
+
+//    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+//    public static class ClientModEvents
+//    {
+//        @SubscribeEvent
+//        public static void onClientSetup(FMLClientSetupEvent event)
+//        {
+//            LOGGER.info("HELLO FROM CLIENT SETUP");
+//            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+//        }
+//    }
 }

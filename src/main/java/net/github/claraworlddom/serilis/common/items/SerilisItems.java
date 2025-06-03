@@ -38,10 +38,11 @@ public class SerilisItems {
     public static final Supplier<Item> CHERRY_BOARD = ITEMS.register("boards/cherry", () ->
             new Item(new Item.Properties()));
 
+    public static final Supplier<BlockItem> LIMESTONE = ITEMS.registerSimpleBlockItem("limestone", SerilisBlocks.LIMESTONE);
+    public static final Supplier<BlockItem> LIMESTONE_ROCK = ITEMS.registerSimpleBlockItem("limestone/limestone_rock", SerilisBlocks.LIMESTONE_ROCK);
+    public static final Supplier<BlockItem> LIMESTONE_BOULDER = ITEMS.registerSimpleBlockItem("limestone/limestone_boulder", SerilisBlocks.LIMESTONE_BOULDER);
+    public static final Supplier<BlockItem> LIMESTONE_FLINT_ROCK = ITEMS.registerSimpleBlockItem("limestone/limestone_flint_rock", SerilisBlocks.LIMESTONE_FLINT_ROCK);
 
-    public static final Supplier<BlockItem> FLINT_ROCK = ITEMS.registerSimpleBlockItem("flint_rock", SerilisBlocks.FLINT_ROCK);
-    public static final Supplier<BlockItem> ROCK = ITEMS.registerSimpleBlockItem("rock", SerilisBlocks.ROCK);
-    public static final Supplier<BlockItem> BOULDER = ITEMS.registerSimpleBlockItem("boulder", SerilisBlocks.BOULDER);
     public static final Supplier<BlockItem> PEBBLE = ITEMS.registerSimpleBlockItem("pebble", SerilisBlocks.PEBBLE);
     public static final Supplier<BlockItem> TWIG = ITEMS.registerSimpleBlockItem("twig", SerilisBlocks.TWIG);
     public static final Supplier<BlockItem> DRIFTWOOD = ITEMS.registerSimpleBlockItem("driftwood", SerilisBlocks.DRIFTWOOD);
